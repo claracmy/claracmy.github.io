@@ -1,9 +1,11 @@
+body {
+  margin-top:20px;
+}
 .nav a {
   color: #5a5a5a;
   font-size: 13px;
   font-weight: bold;
   padding: 16px 20px;
-  margin-top: 10px;
   text-transform: uppercase;
 }
 
