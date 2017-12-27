@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(document).ready(function(){$("#fullpage").fullpage();new Typed(".type",{strings:["I am a Web Developer.","I am a gamer.","I am a hiker.","I am a home barista.","I am a pharmacist.","I am a lifelong learner."],typeSpeed:40,smartBackspace:!0,loop:!0})});

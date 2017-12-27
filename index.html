@@ -3,10 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Clara Cheung</title>
-    <link rel="stylesheet" href="/public/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Vertical scrolling library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/vendors/scrolloverflow.min.js"></script>
+    <!-- Typing effect library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
     <script src="/public/js/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/public/css/style.css">
   </head>
   <body>
-    <h1>Coming Soon</h1>
+    <div class="container" id="fullpage">
+      <div class="section" id="hero">
+        <div class="hero-text">
+          <h1 id="title">Hello, I am Clara.</h1>
+          <h1 id="subtitle"><span class="type"></span></h1>
+        </div>
+      </div>
+      <div class="section" id="about">
+        <h2>About Me</h2>
+        <img class="my-image" src="https://imgur.com/3DW8pyc.png" />
+        <p>As a former Pharmacist, I saw the potential in how technology could transform the industry I was in. I first started learning coding to customise my ecommerce website, but after dabbling in it for about two years I've came to realise coding is where my interest lies.
+        <br>
+        <br>
+        That's when I decided to take on a 12-week Web Development Course at General Assembly where I learned all the essentials to become a full-stack web developer. It could be the satisfaction of solving problems or the ability to create and design, but I always enjoy coding till late at night, or even on the weekends.
+        <br>
+        <br>
+        I have been an avid gamer since I was a child. I enjoy playing games because I can immerse myself in worlds beyond imagination, enjoy the adrenaline rush from winning a close match, become comrades with strangers over the world and share my experience with others through streaming on Twitch.
+        As a person that 'lives on the internet', I think it is pure bliss that I can do what I love for a living, and I would love to use my new found skills to improve people’s lives.
+        </p>
+      </div>
+      <div class="section" id="work">
+        <div id="projects">
+          <h2>Work</h2>
+          <h3>Twinder</h3>
+          <h3>Dino Map</h3>
+          <h3>Watson's Jokes</h3>
+          <h3>Can I Launch?</h3>
+          <h3>Osu Mania!</h3>
+        </div>
+        <div id="tools">
+          <h2>Development</h2>
+        </div>
+      </div>
+      <div class="section" id="contact">
+        <h2>Get In Touch</h2>
+      </div>
+    </div>
+
+    <script>
+    var typed = new Typed('.element', {
+    stringsElement: '#typed-strings'
+    });
+    </script>
+
   </body>
 </html>

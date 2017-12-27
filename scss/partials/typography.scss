@@ -3,6 +3,34 @@
 h1 {
   color: $primary-color;
   font-family: $primary-font;
-  font-size: 40px;
+  font-size: 80px;
   text-align: center;
+}
+
+#subtitle {
+  color: #A37C40;
+  font-size: 70px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+  font-family: $primary-font;
+  color: $primary-color;
+}
+
+h3 {
+  text-align: center;
+  font-size: 28px;
+  font-family: $primary-font;
+  color: $primary-color;
+}
+
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  color: $secondary-color;
+  font-family: $p-font;
+  line-height: 30px;
 }
