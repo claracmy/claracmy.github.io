@@ -1,12 +1,18 @@
 .section {
-  height: 100vh;
 }
 
 .my-image {
   float: left;
+  margin-right: 20px;
 }
 
 #about {
   width: 70%;
   margin: 0 auto;
+  img {
+    width: 100%;
+  }
+  div {
+    height: 100%;
+  }
 }
