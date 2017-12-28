@@ -1,18 +1,53 @@
-.section {
-}
-
 .my-image {
   float: left;
   margin-right: 20px;
 }
 
 #about {
-  width: 70%;
-  margin: 0 auto;
+  // width: 70%;
+  // margin: 0 auto;
   img {
     width: 100%;
   }
   div {
     height: 100%;
+  }
+}
+
+.fp-slide {
+  position:relative;
+}
+
+#projects {
+  img {
+    margin-left: 1vw;
+    width: 70vw;
+    float: left;
+    opacity: 0.95;
+    border: solid #5b7b7a 3px;
+  }
+}
+
+.project-info {
+  background-color: rgba(#ceb489, 0.9);
+  padding: 0 20px;
+  z-index: 10;
+  width: 35vw;
+  left: 60vw;
+  height: 300px;
+  bottom: 30vh;
+  position: absolute;
+  h2 {
+    color: white;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  h4 {
+    color: white;
+    font-family: $p-font;
+    font-size: 18px;
   }
 }
