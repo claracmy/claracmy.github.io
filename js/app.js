@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
 
   var typed = new Typed('.type', {
-    strings: ['I am a web developer.', 'I am a gamer.', 'I am a hiker.', 'I am a home barista.', 'I am a pharmacist.', 'I am a lifelong learner.'],
+    strings: ['I am a web developer.', 'I am a gamer.', 'I am a home barista.', 'I am a hiker.', 'I am a pharmacist.', 'I am a lifelong learner.'],
     typeSpeed: 40,
     smartBackspace: true,
     loop: true

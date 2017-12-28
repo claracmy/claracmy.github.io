@@ -1,11 +1,15 @@
+@import '../variables';
+
+//About
+
 .my-image {
   float: left;
   margin-right: 20px;
 }
 
 #about {
-  // width: 70%;
-  // margin: 0 auto;
+  width: 70vw;
+  margin: 0 auto;
   img {
     width: 100%;
   }
@@ -14,23 +18,26 @@
   }
 }
 
+//Work
+
 .fp-slide {
   position:relative;
 }
 
 #projects {
   img {
-    margin-left: 1vw;
+    margin-left: 4vw;
     width: 70vw;
     float: left;
     opacity: 0.95;
-    border: solid #5b7b7a 3px;
+    border: solid $accent-color 3px;
   }
 }
 
 .project-info {
-  background-color: rgba(#ceb489, 0.9);
-  padding: 0 20px;
+  background-color: rgba($accent-color, 0.9);
+  box-shadow: 50px 50px 0px -35px #5b7b7a;
+  padding: 0 30px;
   z-index: 10;
   width: 35vw;
   left: 60vw;
@@ -38,7 +45,7 @@
   bottom: 30vh;
   position: absolute;
   h2 {
-    color: white;
+    color: $primary-color;
     font-size: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -46,7 +53,6 @@
     font-family: 'Roboto', sans-serif;
   }
   h4 {
-    color: white;
     font-family: $p-font;
     font-size: 18px;
   }

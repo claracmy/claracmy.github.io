@@ -1,0 +1,68 @@
+@import '../variables';
+
+// Arrows
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent $primary-color transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent $primary-color;
+}
+
+//navigation
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+#fp-nav {
+   ul li {
+    margin: 0px 7px 20px 7px;
+    height: 150px;
+    a span {
+      position: absolute;
+      z-index: 1;
+      height: 150px;
+      width: 1px;
+      border: 0;
+      background: $accent-color;
+      left: 50%;
+      top: 0%;
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+    }
+  }
+}
+
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li:hover a span, {
+  height: 150px;
+  width: 2px;
+  background: $primary-color;
+}
+
+#fp-nav.fp-show-active a.active+.fp-tooltip {
+  writing-mode: vertical-lr;
+  color: $primary-color;
+}
+
+#fp-nav ul li .fp-tooltip {
+  font-size: 18px;
+  font-family: $p-font;
+}
+
+#fp-nav ul li:hover .fp-tooltip {
+  writing-mode: vertical-lr;
+  color: $primary-color;
+  font-size: 18px;
+  font-family: $p-font;
+  right: 25px;
+  transition: opacity 0.2s ease-in;
+  width: auto;
+  opacity: 1;
+}
