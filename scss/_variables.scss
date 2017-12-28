@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Arimo|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Arimo|Open+Sans|Montserrat');
 
 $primary-color: rgb(185, 148, 88);
-$secondary-color: rgb(109, 105, 99);
 $accent-color: #202020;
+$p-color: rgb(109, 105, 99);
 
 $primary-font: 'Raleway', sans-serif;
-$h4-font: 'Roboto', sans-serif;
-$p-font: 'Arimo', sans-serif;
+$secondary-font: 'Montserrat Light', sans-serif;
+$accent-font: 'Montserrat Bold', sans-serif;
+$p-font: 'Open Sans', sans-serif;
+
+$phone: "only screen and (min-width: 320px) and (max-width: 767px)";
+$tablet: "only screen and (min-width: 768px) and (max-width: 1023px)";
+$mobile: "only screen and (min-width: 320px) and (max-width: 1023px)";

@@ -10,12 +10,30 @@
 #about {
   width: 70vw;
   margin: 0 auto;
+  @media #{$phone} {
+    width: 90vw;
+  }
   img {
     width: 100%;
+    @media #{$phone} {
+      width: 50%;
+    }
   }
   div {
     height: 100%;
   }
+}
+
+.about-text {
+  width: 50%;
+  padding: 0 10px;
+  float: left;
+}
+
+.about-skills {
+  width: 50%;
+  padding: 0 10px;
+  float: left;
 }
 
 //Work
@@ -34,26 +52,21 @@
   }
 }
 
+@media #{$phone} {
+  #projects img {
+    width: 85vw;
+  }
+}
+
 .project-info {
   background-color: rgba($accent-color, 0.9);
   box-shadow: 50px 50px 0px -35px #5b7b7a;
   padding: 0 30px;
   z-index: 10;
-  width: 35vw;
-  left: 60vw;
+  width: 30vw;
+  left: 61vw;
   height: 300px;
   bottom: 30vh;
   position: absolute;
-  h2 {
-    color: $primary-color;
-    font-size: 60px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    letter-spacing: 5px;
-    font-family: 'Roboto', sans-serif;
-  }
-  h4 {
-    font-family: $p-font;
-    font-size: 18px;
-  }
+
 }

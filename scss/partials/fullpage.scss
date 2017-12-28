@@ -1,16 +1,24 @@
 @import '../variables';
 
-// Arrows
+// Code to override fullpage.js styling
 
+// Arrows
 .fp-controlArrow.fp-prev {
   border-color: transparent $primary-color transparent transparent;
 }
 
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent $primary-color;
+  right: 75px;
 }
 
-//navigation
+.fp-controlArrow {
+  @media #{$mobile} {
+    display: none;
+  }
+}
+
+//Vertical Navigation
 
 ul {
   text-align: center;

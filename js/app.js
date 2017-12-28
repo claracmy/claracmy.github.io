@@ -4,10 +4,8 @@ $(document).ready(function() {
     navigationTooltips: ['Home', 'About Me', 'Work', 'Contact'],
     showActiveTooltip: true,
     slidesNavigation: true,
-    responsiveSlides: true,
-    dragAndMove: 'horizontal',
-    interlockedSlides: true,
-    scrollHorizontally: true
+    responsiveWidth: 1024,
+    responsiveHeight: 700
   });
 
   var typed = new Typed('.type', {
