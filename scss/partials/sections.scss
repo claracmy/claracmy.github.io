@@ -8,9 +8,9 @@
 }
 
 #about {
-  width: 70vw;
+  width: 80vw;
   margin: 0 auto;
-  @media #{$phone} {
+  @media #{$mobile} {
     width: 90vw;
   }
   img {
@@ -34,6 +34,19 @@
   width: 50%;
   padding: 0 10px;
   float: left;
+  ul {
+    margin: 0 auto;
+    padding-left: 0px;
+    li {
+      width: 12%;
+      display: inline-block;
+      margin: 5px 15px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
 }
 
 //Work
