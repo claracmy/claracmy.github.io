@@ -5,11 +5,17 @@
 // Arrows
 .fp-controlArrow.fp-prev {
   border-color: transparent $primary-color transparent transparent;
+  &:hover{
+    border-color: transparent lighten($primary-color,10%) transparent transparent;
+  }
 }
 
 .fp-controlArrow.fp-next {
   border-color: transparent transparent transparent $primary-color;
   right: 75px;
+  &:hover{
+    border-color: transparent transparent transparent lighten($primary-color,10%);
+  }
 }
 
 .fp-controlArrow {
@@ -18,12 +24,14 @@
   }
 }
 
-//Vertical Navigation
+//Navigation
 
-#fp-nav ul {
+#fp-nav ul, .fp-slidesNav ul {
   text-align: center;
   list-style: none;
 }
+
+//Vertical Nav
 
 #fp-nav {
    ul li {

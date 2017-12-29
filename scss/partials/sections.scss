@@ -2,11 +2,6 @@
 
 //About
 
-.my-image {
-  float: left;
-  margin-right: 20px;
-}
-
 #about {
   width: 80vw;
   margin: 0 auto;
@@ -14,19 +9,16 @@
     width: 90vw;
   }
   img {
-    width: 100%;
+    width: 100px;
     @media #{$phone} {
       width: 50%;
     }
-  }
-  div {
-    height: 100%;
   }
 }
 
 .about-text {
   width: 50%;
-  padding: 0 10px;
+  padding: 0 80px 0 0;
   float: left;
 }
 
@@ -40,7 +32,7 @@
     li {
       width: 12%;
       display: inline-block;
-      margin: 5px 15px;
+      margin: 5px 30px 5px 0;
       text-align: center;
     }
     p {
@@ -82,4 +74,40 @@
   bottom: 30vh;
   position: absolute;
 
+}
+
+//contact
+
+#contact {
+  form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid $accent-color 1px;
+    input, textarea {
+      border: solid $primary-color 1px;
+      padding:5px 25px;
+      width: 100%;
+    }
+    input[type=submit] {
+    background: transparent;
+    cursor:pointer;
+    font-family: $accent-font;
+    font-size: 20px;
+    font-weight: 200;
+    color: $primary-color;
+    margin-top: 10px;
+    }
+    textarea {
+      height: 100px;
+      resize: none;
+    }
+  }
+  h2 {
+    font-weight: 200;
+  }
+  p {
+    text-align: center;
+    display: inline;
+  }
 }
