@@ -14,4 +14,8 @@ $(document).ready(function() {
     smartBackspace: true,
     loop: true
   });
+
+  $('.envelope-button').on('click', function() {
+    $('.contact-form').slideToggle('slow');
+  });
 });

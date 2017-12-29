@@ -48,7 +48,7 @@ h5 {
   font-family: $accent-font;
   font-weight: 200;
   color: $primary-color;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px 0px;
 }
 
@@ -64,10 +64,11 @@ p {
   }
 }
 
-a {
+a, .envelope-button {
   color: $primary-color;
   &:hover, &:active {
     color: lighten($primary-color, 10%);
+    cursor: pointer;
   }
   &:vistied {
     color: $primary-color;
