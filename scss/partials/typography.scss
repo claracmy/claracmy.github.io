@@ -14,15 +14,12 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 52px;
+  font-size: 37px;
   font-family: $accent-font;
   color: $primary-color;
   letter-spacing: 3px;
   margin-top: 15px;
   margin-bottom: 0px;
-  @media #{$mobile} {
-    font-size: 40px;
-  }
 }
 
 h3 {
@@ -34,10 +31,11 @@ h3 {
 
 h4 {
   font-size: 16px;
-  font-family: $p-font;
+  font-family: $accent-font;
+  font-weight: 200;
   color: white;
-  text-align: center;
-  line-height: 22px;
+  text-align: justify;
+  line-height: 24px;
   @media #{$mobile} {
     font-size: 14px;
     line-height: 18px;
