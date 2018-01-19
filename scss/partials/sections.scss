@@ -25,9 +25,6 @@
 #about {
   width: 80vw;
   margin: 0 auto;
-  @media #{$mobile} {
-    width: 90vw;
-  }
 }
 
 .about-text {
@@ -71,7 +68,25 @@
     border-left: 15px solid $primary-color;
     -moz-border-radius: 0 0 0 5px;
     border-radius: 0 0 0 5px;
+  }
 }
+
+@media #{$mobile} {
+    .about-text {
+      width: 100%;
+      padding: 3vw 2vw;
+      float: none;
+      h3 {
+        text-align: center;
+      }
+    }
+    .about-skills {
+      width: 100%;
+      float: none;
+      ul li {
+        width: 20%;
+      }
+    }
 }
 
 //Work
@@ -90,11 +105,12 @@
   }
 }
 
-@media #{$phone} {
-  #projects img {
-    width: 85vw;
+@media #{$mobile} {
+  #projects img{
+    width: 92vw;
   }
 }
+
 
 .project-info {
   background-color: rgba($accent-color, 1);
@@ -150,6 +166,9 @@
     textarea {
       height: 100px;
       resize: none;
+    }
+    @media #{$mobile} {
+      width: 60vw;
     }
   }
   h2 {
